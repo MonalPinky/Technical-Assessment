@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      div {
+        background-color: #cccccc;
+      }
+    </style>
+    <div>Line 1</div>
+    <div class="line">Line 2</div>
+    <div>Line 3</div>
+    <button onclick="changeColor()">Change color</button>
+
+    <script>
+      var clicked = true;
+      function changeColor() {
+        const linechange = document.querySelector(".line");
+        if (clicked) {
+          linechange.style.color = "white";
+          linechange.style.backgroundColor = "black";
+          clicked = false;
+        } else {
+          linechange.style.color = "black";
+          linechange.style.backgroundColor = "#cccccc";
+          clicked = true;
+        }
+      }
+    </script>
+  </body>
+</html>
