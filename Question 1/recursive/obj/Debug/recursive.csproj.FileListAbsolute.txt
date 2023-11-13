@@ -1,0 +1,6 @@
+D:\class\C# Practice\Tatum\Technical-Assessment\Question 1\recursive\bin\Debug\recursive.exe
+D:\class\C# Practice\Tatum\Technical-Assessment\Question 1\recursive\bin\Debug\recursive.pdb
+D:\class\C# Practice\Tatum\Technical-Assessment\Question 1\recursive\obj\Debug\recursive.csproj.AssemblyReference.cache
+D:\class\C# Practice\Tatum\Technical-Assessment\Question 1\recursive\obj\Debug\recursive.csproj.CoreCompileInputs.cache
+D:\class\C# Practice\Tatum\Technical-Assessment\Question 1\recursive\obj\Debug\recursive.exe
+D:\class\C# Practice\Tatum\Technical-Assessment\Question 1\recursive\obj\Debug\recursive.pdb
