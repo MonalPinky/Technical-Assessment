@@ -41,7 +41,7 @@ select * from ContactDetails where AreaCode = '012' and IsActive = 1;
 ---•	Set all entries with a Description containing the letter x to active, except entries with an Order number smaller than or equal to 50
 --using wildcard caracter so will check everywhere where there is an x and changes active to 1#
 begin tran
-	update ContactDetails set IsActive =1 where Description like '%x%'; 
+	update ContactDetails set IsActive =1 where Description like '%x%' and OrderNumber >50; 
 commit tran
 
 ----•	Re-Orders the entire table from 1 to N --Not quite sure what is expected here.
